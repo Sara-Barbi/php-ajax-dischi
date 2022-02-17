@@ -9,7 +9,8 @@ let app = new Vue({
            .get('http://localhost/Boolean/php-ajax-dischi-api/minestone-due/api.php')
            .then((risposta)=>{
                let risultato= risposta.data;
-               console.log(risultato);
+               nuovoA=risultato;
+               console.log(nuovoA)
            })
            .catch((errore)=>{
                console.log(errore);
