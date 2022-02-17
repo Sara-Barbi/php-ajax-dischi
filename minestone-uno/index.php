@@ -62,7 +62,7 @@ $database = [
 <body>
     <div class="row mt_tall_r">
         <div class="col-12">
-            <img class="logo_wdt" src="logo.png" alt="">
+            <img class="logo_wdt" src="logo.png.png" alt="">
         
         </div>
     </div>
