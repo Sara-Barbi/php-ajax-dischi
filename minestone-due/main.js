@@ -3,13 +3,16 @@ let app = new Vue({
    data:{
      nuovoA:[]
    },
+   created() {
+    this.show();
+  },
    methods:{
        show(){
            axios
            .get('http://localhost/Boolean/php-ajax-dischi-api/minestone-due/api.php')
            .then((risposta)=>{
                let risultato= risposta.data;
-               nuovoA=risultato;
+               this.nuovoA=risultato;
                console.log(nuovoA)
            })
            .catch((errore)=>{
