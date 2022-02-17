@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(23, 49, 64);
+}
+.my_width_card{
+    margin-top: 0px;
+    padding-top:0px;
+    width: 200px;
+    min-height: 370px;
+    display: inline-block;
+    background-color: rgb(77, 71, 93);
+    color: white;
+
+}
+.my_ro_marg{
+    margin-top: 200px;
+}
+.logo_wdt{
+    width: 50px;
+}
+.mt_tall_r{
+    height: 60px;
+    background-color: rgb(77, 71, 93);
+}
+.my_post{
+    width: 100%;
+    
+}
+.grey_style{
+    font-size: 13px;
+    color: rgb(157, 155, 155);
+}
+.title_post{
+    font-size: 18px;
+    font-weight: bold;
+}
